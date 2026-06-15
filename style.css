@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f2;
+  color: #4a2340;
+  text-align: center;
+}
+
+header {
+  background-color: #d63384;
+  color: white;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+header p {
+  font-size: 24px;
+}
+
+section {
+  background-color: white;
+  margin: 30px auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+  color: #d63384;
+}
+
+.convite p,
+.mensagem p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #4a2340;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.presentes {
+    background: #fff;
+}
+
+.lista-presentes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.presente {
+    width: 220px;
+    background-color: #fff0f7;
+    border: 2px solid #f7c6dd;
+    border-radius: 15px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.presente:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.presente h3 {
+    color: #d63384;
+    margin-bottom: 10px;
+}
+
+.presentes {
+  background-color: white;
+  margin: 30px auto;
+  padding: 30px;
+  width: 80%;
+  max-width: 900px;
+  border-radius: 20px;
+}
+
+.lista-presentes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.presente {
+  background-color: #fff0f7;
+  border: 2px solid #f7c6dd;
+  border-radius: 15px;
+  padding: 20px;
+  width: 230px;
+}
+
+.presente h3 {
+  color: #d63384;
+}
+
+.presente p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #d63384;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+
+.banner {
+  
+    /* Troque pelo caminho da imagem */
+    background-image: url("img/billie-eilish.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 2rem;
+}
