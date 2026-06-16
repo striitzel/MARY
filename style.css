@@ -48,15 +48,6 @@ footer {
   margin-top: 40px;
 }
 
-.presente {
-    width: 220px;
-    background-color: #fff0f7;
-    border: 2px solid #f7c6dd;
-    border-radius: 15px;
-    padding: 20px;
-    transition: 0.3s;
-}
-
 .presente:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0,0,0,0.15);
@@ -107,18 +98,6 @@ footer {
 }
 
 
-.banner {
-  background-image: url("img/billie-eilish.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 500px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .overlay {
     background-color: rgba(0, 0, 0, 0.45);
     width: 100%;
@@ -140,9 +119,4 @@ footer {
 
 .overlay p {
     font-size: 2rem;
-}
-
-.botao:hover {
-  background-color: #ad1f67;
-  transform: scale(1.05);
 }
