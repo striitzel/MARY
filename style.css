@@ -48,17 +48,6 @@ footer {
   margin-top: 40px;
 }
 
-.presentes {
-    background: #fff;
-}
-
-.lista-presentes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
 .presente {
     width: 220px;
     background-color: #fff0f7;
@@ -102,10 +91,6 @@ footer {
   width: 230px;
 }
 
-.presente h3 {
-  color: #d63384;
-}
-
 .presente p {
   font-size: 20px;
   font-weight: bold;
@@ -123,17 +108,15 @@ footer {
 
 
 .banner {
-  
-    /* Troque pelo caminho da imagem */
-    background-image: url("img/billie-eilish.jpg");
+  background-image: url("img/billie-eilish.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay {
@@ -157,4 +140,9 @@ footer {
 
 .overlay p {
     font-size: 2rem;
+}
+
+.botao:hover {
+  background-color: #ad1f67;
+  transform: scale(1.05);
 }
